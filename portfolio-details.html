@@ -113,7 +113,7 @@
       <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>Intelligent Learning Management System</h2>
+            <b><h2>Intelligent Learning Management System</h2></b>
             <p>An 8 week project</p>
             <ol>
               <li><a href="index.html">Home</a></li>
@@ -127,13 +127,36 @@
       <!-- ======= Portfolio Details Section ======= -->
       <section id="portfolio-details" class="portfolio-details">
         <div class="container">
+          <p>
+            A content management system (CMS) is an application that is used
+            to manage web content, allowing course instructors to create, edit
+            and delete. Content in a CMS is typically stored in a database and
+            displayed in a presentation layer based on a set of templates.<br> Our
+            system is divided into two parts, <b>A content management application
+            (CMA)</b> – this is the part that allows instructors to add and manage
+            content. <br><b>A content delivery application (CDA)</b> – this is the
+            backend, behind-the-scenes process that takes the content provided
+            in the CMA, stores it properly, and makes it visible to backend
+            support. <br>The features in the system are to create content,
+            generate JSON from the given inputs, storing the JSON data in the
+            server, previewing the content, and deleting the content.
+          </p>
+          <ol>
+            <li><b>Team</b>: 6 members</li>
+            <li><b>Duration</b>:8 weeks</li>
+            <li><b>Technologies Used</b>: ReactJS,
+            MongoDB, NodeJS,Express</li>
+            <br><br>
           <div class="row gy-4">
-            <h2>SPRINT - 1</h2>
+            
+            <h2  style="color:rgb(5, 5, 134)">SPRINT - 1</h2>
+           
+            </ol>
             <div class="col-lg-6">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/sp1_1.jpg" alt="" />
+                    <img src="assets/img/portfolio/sp1_1.jpg" alt=""  />
                   </div>
 
                   <div class="swiper-slide">
@@ -150,7 +173,7 @@
 
             <div class="col-lg-4">
               <div class="portfolio-info">
-                <h3>Project information</h3>
+                <h3>Sprint information</h3>
                 <ul>
                   <li><strong>Category :</strong> Web design</li>
                   <!-- <li><strong>Client</strong>: ASU Company</li> -->
@@ -164,14 +187,23 @@
             <div class="portfolio-description">
               <h2>Description</h2>
               <p>
-                Understood the concept of the project Designed a prototype of
-                our understanding We had a discussion with other teams of ILMS
-                Gone through few resources regarding React JS, HTML to JSON
-                conversion, Markdown
+                Understanding the concepts of the project requirements
+                As a team decided to work on Content Management System,
+                Using JustinMind ,designed a prototye based on the understanding of the functionalities that are required.
+                Discussed with other team members of I-LMS for the feedback
+                Gone through few concepts of Reactjs,JSON,Markdown and Mongodb.<br><br>
+                <b>Screen-1</b>: Course Page<br>
+                The Page is divide into two coloums where the first column includes the course form and the second column includes the list of courses created. In the first column, user will be able to add information in the course form which take the course details of course description,course name, coursetype whether IT or SS,semester course start date and end date and course instructors. The course decription includes the markdown preview,which helps the user to preview the data based on the text highlight like bold,italic,ordered unorderd etc. The second column must display all the course name which are already created. ON clicking the course name button it must display the open,edit and delete button options.
+                <br><br>
+                <b>Screen-2</b>: Learning Objectives Page<br>
+                The Page is divide into two coloums where the first column includes the Learning objective form and the second column includes the list of learning objective buttons created. Learning objective form includes the unique id along with the course name, descritpion, activities to be added like video url,assignment,quiz and notes. on clicking add button the activites should be created. Activites form include the activity id and the type of activity. If the activity is a video it includes the video url and title. If the activity is either notes or assignemnt it includes the description. On clicking the create button a JSON file must be created with a learning objective id as the file name.
+                <br><br>
+                <b> Screen-3</b>: Day Module Page<br>
+                The Page is divide into two coloums where the first column includes the Day Module form and the second column includes the list of Day modules created. Day module form includes the unique id along with the course name, descritpion. Along with 2 dropdown buttons which is to add the learning objecties and its pre-requites for that particular learning objective. All the learning objective and its pre-requites will be add as a one row in the table. On clicking the create day module,it creates a JSON file and will display on the right column in the list of day modules created.
               </p>
             </div>
           </div>
-        </div>
+        -</div>
         <p>
           <!-- ......................................................................................................................... -->
         </p>
@@ -179,7 +211,7 @@
         <br /><br />
         <div class="container">
           <div class="row gy-4">
-            <h2>SPRINT - 2</h2>
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 2</h2>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
@@ -201,7 +233,7 @@
 
             <div class="col-lg-4">
               <div class="portfolio-info">
-                <h3>Project information</h3>
+                <h3 style="color:rgb(5, 5, 134)">Sprint information</h3>
                 <ul>
                   <li><strong>Category :</strong> Web design</li>
                   <!-- <li><strong>Client</strong>: ASU Company</li> -->
@@ -222,19 +254,19 @@
             <div class="portfolio-description">
               <h2>Description :</h2>
               <p>
-                Designed a prototype of our course page Created a form with the
-                fields of id, title, description, instructors, image Worked on
-                Markdown Integrated markdown into the form Displayed the button
-                with the name of the course when the form is created
-              </p>
-            </div>
+                Sprint-2: Course Page
+                User Story:As a course developer, I should be able to create a course with all the metadata, so that the course content can be created.
+                Description:
+                The Course Page is divided into two coloums where the first column includes the course form and the second column includes the list of courses created which is retreived from database. In the first column, user will be able to add information in the course form which take the course details of course description,course name, and course instructors. The course description has a textarea which needs to include preview. The second column must display all the course name which are already created. On clicking the course name button it must display the open,edit and delete button options.
+                Looked into the git code of I-LMS. clone it to the local respository. Took time to understand the code from the server end and the connection to frontend to the server. Database and the modal used in I_LMs cannot be changed. </p>
+           <br><br> </div>
           </div>
         </div>
 
         <!-- 3 -->
         <div class="container">
           <div class="row gy-4">
-            <h2>SPRINT - 3</h2>
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 3</h2>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
@@ -256,7 +288,7 @@
 
             <div class="col-lg-4">
               <div class="portfolio-info">
-                <h3>Project information</h3>
+                <h3 style="color:rgb(5, 5, 134)">Project information</h3>
                 <ul>
                   <li><strong>Category</strong>: Web design</li>
                   <!-- <li><strong>Client</strong>: ASU Company</li> -->
@@ -278,11 +310,7 @@
             <div class="portfolio-description">
               <h2>Description</h2>
               <p>
-                Created a learning objectives form which has id, name, type of
-                the activity Each activity type has certain details When user
-                click on add then the json is created Form data displays the
-                JSON format When user click on download, the file with JSON will
-                be stored and save in the local system
+                In this sprint, We have worked on second screen which is learning objective page. In this page, we have created a form which contains the fields like learning objective id, title and video and notes form. We have added buttons and when we click on buttons the json form gets created. When we click on create The form gets created and when we click on download the file gets downloaded in the local system. The UI of the page was basic. For the reference, we displayed the JSON on the screen.
               </p>
             </div>
           </div>
@@ -290,7 +318,7 @@
         <!-- 4 -->
         <div class="container">
           <div class="row gy-4">
-            <h2>SPRINT - 4</h2>
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 4</h2>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
@@ -333,43 +361,87 @@
             </div>
             <div class="portfolio-description">
               <h2>Description</h2>
-              <p>
-                Made few changes in course page regarding selecting an
-                instructor and also with uploading an image Created a dropdown
-                bottom and it has items of open, preview, edit, delete Added
-                Styling to the learning objective page Integrated learning
-                objective page with Course page /p>
-              </p>
+              <p>In this sprint, we modified the course form, instead of input field we have given the select dropdown where mentor can choose from them and also in image, instead of URL we have given an upload where mentor can choose directly the local system. When the user clicks on create then instead of button it displays dropdown and the items in the dropdown are open, edit, delete and preview. We have integrated the course page and learning objective page i.e when user clicks open dropdown iteam of open then it redirects to learning objective page. We have even added the styling to the learning objective page and anlso by clicking on create then dropdown will be shown with few items. </p>
             </div>
           </div>
         </div>
         <!-- 5 -->
         <div class="container">
           <div class="row gy-4">
-            <h2>SPRINT - 5</h2>
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 5</h2>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-details-1.jpg"
+                      src="assets/img/portfolio/up1.jpg"
                       alt=""
                     />
                   </div>
 
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-details-2.jpg"
+                      src="assets/img/portfolio/up2.jpg"
                       alt=""
                     />
                   </div>
 
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/portfolio-details-3.jpg"
+                      src="assets/img/portfolio/up3.jpg"
                       alt=""
                     />
                   </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li><strong>Category : </strong>Web design</li>
+                  <!-- <li><strong>Client</strong>: ASU Company</li> -->
+                  <li><strong>Project date : </strong>31st May - 04th June, 2021</li>
+                  <li>
+                    <strong>Sprint Goal : </strong>Updating Learning Objectives
+                    page
+                  </li>
+                  <li>
+                    <strong>User Story : </strong>As a course developer, I
+                    should be able to create the learning objectives, so that
+                    the content for each learning objective can be created.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="portfolio-description">
+              <h2><b>Description:</b></h2>
+              <p>
+                
+                In this week sprint, we changed the UI of course page and learning objective page. In course page, we moved the markdown format to next screen i.e we added the event to the input field so that it redirects to next page and after entering the text the user should click on save then it redirects to course page and entered text will be displayed in the input field. In course page, we hidden the input fields which user need not entered and made it to generate automatically. In the earlier code, when we click on create then it would be moving to the next component and then dropdown displayed. Now, we removed that component and using row and column we implemented there itself. We worked on generating the title when the user gives the video id in a seperate file.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="container">
+          <div class="row gy-4">
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 6</h2>
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper-container">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w63.JPG" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w64.JPG" alt="" />
+                  </div>
+
+                  <!-- <div class="swiper-slide"> -->
+                    <!-- <img src="assets/img/portfolio/sp1_3.jpg" alt="" /> -->
+                  <!-- </div> -->
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -381,45 +453,64 @@
                 <ul>
                   <li><strong>Category : </strong>Web design</li>
                   <!-- <li><strong>Client</strong>: ASU Company</li> -->
-                  <li><strong>Project date : </strong>01 March, 2020</li>
+                  <li><strong>Project date : </strong>7th - 11th June, 2021</li>
                   <li>
-                    <strong>Project URL</strong>:
-                    <a href="#">www.example.com</a>
+                    <strong>Sprint Goal : </strong>Updating Learning Objectives
+                    page
+                  </li>
+                  <li>
+                    <strong>User Story : </strong>Preview page for courses and viewing their learning objectives as well as activities.
                   </li>
                 </ul>
               </div>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                itaque inventore commodi labore quia quia. Exercitationem
-                repudiandae officiis neque suscipit non officia eaque itaque
-                enim. Voluptatem officia accusantium nesciunt est omnis tempora
-                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
-              </p>
+              <h2>Description</h2>
+              <p>In this week, I have worked on learning objective page. In the last week we have an issue regarding automation of generating title from the youtube URL id, this week we resolved it by using google cloud api. In the last week we used await function to retrieve youtube data where the page is automatically refreshed, so in this week we removed await function and fetched the data. Automated the id's, if the user choose the course in course page and clicks on open then redirects to learning objective page and the id generated as per the course name and L and number(2222L1). We were asked to generate JSON file in the backend. We have worked on it using api calls. We will send JSON data from frontend to backend with api calls. At the backend, it will search for the folder as per course name and if folder doesn't exist then it will create the folder and then creates the files later the JSON data gets appended to it. Along with this, the dropdown will be displayed at the right of the page.
+                <br><br>Also tried to add markdown editor for notes description. So, that description can be written in markdown format and save it for the json. However, when I did that I was not able to save all previous entered data of the form on using md editor as seperate render component. Not able to find optimum solution to fix this.
+               <br> Tried using it as another component and upon clicking description tried to render markdown editor. However, on doing so, the learning objective screen is getting refreshed and all the previously entered details are getting cleared. So looked for alternatives with various resources. Finally found an option of creating a modal window and displaying Markdown editor on screen itself. So, should work on implementing it for today.</p>
             </div>
           </div>
         </div>
-        <!-- 6 -->
+        <!-- <--7-->
         <div class="container">
           <div class="row gy-4">
-            <h2>SPRINT - 6</h2>
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 7</h2>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/sp1_1.jpg" alt="" />
+                    <img src="assets/img/portfolio/w71.JPG" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/sp1_2.jpg" alt="" />
+                    <img src="assets/img/portfolio/w72.JPG" alt="" />
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w73.JPG" alt="" />
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w74.JPG" alt="" />
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w75.JPG" alt="" />
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w76.JPG" alt="" />
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w77.JPG" alt="" />
                   </div>
 
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/sp1_3.jpg" alt="" />
-                  </div>
+
+                  <!-- <div class="swiper-slide"> -->
+                    <!-- <img src="assets/img/portfolio/sp1_3.jpg" alt="" /> -->
+                  <!-- </div> -->
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -429,26 +520,88 @@
               <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
+                  <li><strong>Category : </strong>Web design</li>
+                  <!-- <li><strong>Client</strong>: ASU Company</li> -->
+                  <li><strong>Project date : </strong>14th - 18th June, 2021</li>
                   <li>
-                    <strong>Project URL</strong>:
-                    <a href="#">www.example.com</a>
+                    <strong>Sprint Goal : </strong>Learning Objectives page & Day Modules page
+             
+                  </li>
+                  <li>
+                    <strong>User Story : </strong>As a course developer, I should be able to link the pre-requisite learning objectives for a learning objective, so that it can be used to personalize the module for each student in the iLMS.
                   </li>
                 </ul>
               </div>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                itaque inventore commodi labore quia quia. Exercitationem
-                repudiandae officiis neque suscipit non officia eaque itaque
-                enim. Voluptatem officia accusantium nesciunt est omnis tempora
-                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
-              </p>
+              <h2>Description</h2>
+              <p>In this week, we worked on learning objective page and day module page. In learning objective page, when the user clicks on the dropdown button then it displays the items like preview and delete. When user clicks on preview then it displays the id, title, activity type, video id, notes title and when the user clicks on delete then that file gets deleted. When we land in learning objective page then in the right of the page the files created will be displayed. Here we have used api calls to get data from backend.
+<br><br>
+                In daywise modules, we have created a form which consists of id and description and given a two select dropdowns where one is for learning objective and other is for prerequisites. In the select dropdown, the learning objectives were fetched from backend using api calls. After selecting the learning objectives then we need to click on add and to preview that we have displayed it in table below. After entering all the details we need to click on save button. After clicking on it then the json get created and that json get appended to the file. That files will be stored in one folder which is created based on name of the course. It is previewed at the right of the page and clicking on it, it displays the items like preview and delete. When we click on preview then the details in the file gets displayed. When we click on delete then that files get deleted. I have also worked on the testing part, wherein I watched the video recording of Mr. Santhosh sir's session on testing. Then I tried to code some functions for testing of our first two screens.
+                <br><br>                
+                Created the buttons like course page and day module page in learning objectives page. When user clicks on course page then the page gets redirects to course page and when user clicks on module page then it redirects to day modules page. In day modules page we created a button and when user clicks on it then the page redirects to learning objectives page. In this way, we integrated all the screens. </p>
+            </div>
+          </div>
+        </div>
+        <!-- <-8-> -->
+        <div class="container">
+          <div class="row gy-4">
+            <h2 style="color:rgb(5, 5, 134)">SPRINT - 8</h2>
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper-container">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w83.JPG" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w81.JPG" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w82.JPG" alt="" />
+                  </div>
+
+                  <!-- <div class="swiper-slide">
+                    <img src="assets/img/portfolio/w64.JPG" alt="" />
+                  </div> -->
+
+                  <!-- <div class="swiper-slide"> -->
+                    <!-- <img src="assets/img/portfolio/sp1_3.jpg" alt="" /> -->
+                  <!-- </div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li><strong>Category : </strong>Web design</li>
+                  <!-- <li><strong>Client</strong>: ASU Company</li> -->
+                  <li><strong>Project date : </strong>21st - 25th June, 2021</li>
+                  <li>
+                    <strong>Sprint Goal : </strong>Report and Presentation
+                    
+                  </li>
+                  <!-- <li>
+                    <strong>User Story : </strong>Preview page for courses and viewing their learning objectives as well as activities.
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="portfolio-description">
+              <h2>Description</h2>
+              <p>In this sprint, we worked on document comments in each screen i.e course page, learning objective page and day module page. I have worked on few changes which were suggest by our ma'am. We received a mail from Manjunath sir regarding the final demo. The mail contains the scoring and what needs to be submitted on the final presentation. It has report, so we worked on report as per our ma'am guidelines. The score for the report is 4 marks. We worked on presentation and divided the topic among ourselves like what needs to be presented. After completing the presentation, we took a review and made changes accordingly. We want presentation effective, so we joined the call and rehearsed the presentation.My part is to present the introduction to our presentation.
+<br><br>
+                In the prsentation,we have started with the introduction. It will start will the problem statement what is the current problem and how we cam up with a solution. Secondly, the agenda for the presentation,followed with our 8 weeks of journey and technologies used. In the middle section, we would describe the Course Page,Learning Objective Page and Day module Page and cover the highlights in each page. Like Markdown,Database,JSON generationa storing and displaying the content. Then , we decided to show a demo of the project and the working of it.How and where the data is stored. Lastly, we would conclude the session with future scope can be better if the sign-in and sign-out page where only the user will be able to access the data.
+                <br><br>               
+                For more clarity, I would provide the links</p>
+
+                Presentation Link <a href="https://docs.google.com/presentation/d/1kYDD27z0ZAM2XvQtXSN420WqHf3lZbd-_d5fWbIavOI/edit#slide=id.p">Click here</a><br><br>
+                Report Link<a href="https://docs.google.com/document/d/1TTTPAAXmk1OH3c8bLjUHbtkOF2ASYdgMpzBd4-wy2w0/edit#heading=h.11ngwkdhg9k4"> Click here</a>
+
+
             </div>
           </div>
         </div>
